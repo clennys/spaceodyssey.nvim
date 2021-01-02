@@ -5,19 +5,19 @@ set background=dark
 set t_Co=256
 hi Normal guifg=#eaebed ctermbg=NONE gui=NONE
 hi DiffText guifg=#ebcb8b guibg=NONE
-hi ErrorMsg guifg=#ebcb8b guibg=NONE
+hi ErrorMsg guifg=#bf616a guibg=NONE
 hi WarningMsg guifg=#ebcb8b guibg=NONE
 hi PreProc guifg=#ebcb8b guibg=NONE
 hi Exception guifg=#ebcb8b guibg=NONE
-hi Error guifg=#ebcb8b guibg=NONE
-hi DiffDelete guifg=#ebcb8b guibg=NONE
+hi Error guifg=#bf616a guibg=NONE
+hi DiffDelete guifg=#bf616a guibg=NONE
 hi GitGutterDelete guifg=#ebcb8b guibg=NONE
 hi GitGutterChangeDelete guifg=#ebcb8b guibg=NONE
 hi cssIdentifier guifg=#ebcb8b guibg=NONE
 hi cssImportant guifg=#ebcb8b guibg=NONE
 hi Type guifg=#ebcb8b guibg=NONE
 hi Identifier guifg=#ebcb8b guibg=NONE
-hi PMenuSel guifg=#96b5b4 guibg=NONE
+hi PMenuSel guifg=#1c1023 guibg=#96b5b4
 hi Constant guifg=#a3be8c guibg=NONE
 hi Repeat guifg=#a3be8c guibg=NONE
 hi DiffAdd guifg=#a3be8c guibg=NONE
@@ -33,7 +33,7 @@ hi Conditional guifg=#96b5b4 guibg=NONE
 hi Todo guifg=#96b5b4 guibg=NONE
 hi Special guifg=#96b5b4 guibg=NONE
 hi Label guifg=#96b5b4 guibg=NONE
-hi Delimiter guifg=#96b5b4 guibg=NONE
+hi Delimiter guifg=#bf616a guibg=NONE
 hi Number guifg=#96b5b4 guibg=NONE
 hi CursorLineNR guifg=#96b5b4 guibg=NONE
 hi Define guifg=#96b5b4 guibg=NONE
@@ -42,7 +42,7 @@ hi Tag guifg=#96b5b4 guibg=NONE
 hi String guifg=#a3be8c guibg=NONE
 hi MatchParen guifg=#96b5b4 guibg=NONE
 hi Macro guifg=#96b5b4 guibg=NONE
-hi DiffChange guifg=#96b5b4 guibg=NONE
+hi DiffChange guifg=#ebcb8b guibg=NONE
 hi GitGutterChange guifg=#96b5b4 guibg=NONE
 hi cssColor guifg=#96b5b4 guibg=NONE
 hi Function guifg=#778899 guibg=NONE
@@ -74,6 +74,13 @@ hi StatusLineNC gui=NONE guifg=#eaebed
 hi Search guibg=#bf616a guifg=#1c2023
 hi VertSplit gui=NONE guifg=#090909 guibg=NONE
 hi Visual gui=NONE guibg=#090909
+
+hi LSPDiagnosticsDefaultWarning guibfg=#ebcb8b
+hi LSPDiagnosticsDefaultError guibfg=#bf616a
+hi LSPDiagnosticsDefaultInformation guibfg=#96b5b4
+hi LSPDiagnosticsDefaultHint guibfg=#96b5b4
+
+
 
 
 let g:terminal_color_0  = '#1c2023'
