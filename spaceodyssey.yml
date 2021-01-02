@@ -128,13 +128,13 @@ highlights:
   PreCondit: "nord9"
 
   # Git
-  DiffAdd: "nord14 nord1"
-  DiffChange: "nord13 nord1"
-  DiffDelete: "nord11 nord1"
+  DiffAdd: "nord14"
+  DiffChange: "nord13"
+  DiffDelete: "nord11"
   DiffText: "nord9 nord1"
   diffAdded: "nord14 nord1"
-  diffChanged: "nord13 nord1"
-  diffRemoved: "nord11 nord1"
+  diffChanged: "nord13"
+  diffRemoved: "nord11"
   diffFileId: "nord10 - br"
   diffFile: "special_grey"
   diffNewFile: "nord14"
