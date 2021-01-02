@@ -1,101 +1,160 @@
-hi clear
-syntax reset
-let g:colors_name = "spaceodyssey"
+" hi clear
+" syntax reset
+" let g:colors_name = "spaceodyssey"
+" set background=dark
+" set t_Co=256
+" hi Normal guifg=#eaebed ctermbg=NONE gui=NONE
+" hi DiffText guifg=#ebcb8b guibg=NONE
+" hi ErrorMsg guifg=#bf616a guibg=NONE
+" hi WarningMsg guifg=#ebcb8b guibg=NONE
+" hi PreProc guifg=#ebcb8b guibg=NONE
+" hi Exception guifg=#ebcb8b guibg=NONE
+" hi Error guifg=#bf616a guibg=NONE
+" hi DiffDelete guifg=#bf616a guibg=NONE
+" hi GitGutterDelete guifg=#ebcb8b guibg=NONE
+" hi GitGutterChangeDelete guifg=#ebcb8b guibg=NONE
+" hi cssIdentifier guifg=#ebcb8b guibg=NONE
+" hi cssImportant guifg=#ebcb8b guibg=NONE
+" hi Type guifg=#ebcb8b guibg=NONE
+" hi Identifier guifg=#ebcb8b guibg=NONE
+" hi PMenuSel guifg=#1c1023 guibg=#96b5b4
+" hi Constant guifg=#a3be8c guibg=NONE
+" hi Repeat guifg=#a3be8c guibg=NONE
+" hi DiffAdd guifg=#a3be8c guibg=NONE
+" hi GitGutterAdd guifg=#a3be8c guibg=NONE
+" hi cssIncludeKeyword guifg=#a3be8c guibg=NONE
+" hi Keyword guifg=#a3be8c guibg=NONE
+" hi IncSearch guifg=#96b5b4 guibg=NONE
+" hi Title guifg=#96b5b4 guibg=NONE
+" hi PreCondit guifg=#96b5b4 guibg=NONE
+" hi Debug guifg=#96b5b4 guibg=NONE
+" hi SpecialChar guifg=#96b5b4 guibg=NONE
+" hi Conditional guifg=#96b5b4 guibg=NONE
+" hi Todo guifg=#96b5b4 guibg=NONE
+" hi Special guifg=#96b5b4 guibg=NONE
+" hi Label guifg=#96b5b4 guibg=NONE
+" hi Delimiter guifg=#eaebed guibg=NONE
+" hi Number guifg=#96b5b4 guibg=NONE
+" hi CursorLineNR guifg=#96b5b4 guibg=NONE
+" hi Define guifg=#96b5b4 guibg=NONE
+" hi MoreMsg guifg=#96b5b4 guibg=NONE
+" hi Tag guifg=#96b5b4 guibg=NONE
+" hi String guifg=#a3be8c guibg=NONE
+" hi MatchParen guifg=#96b5b4 guibg=NONE
+" hi Macro guifg=#96b5b4 guibg=NONE
+" hi DiffChange guifg=#ebcb8b guibg=NONE
+" hi GitGutterChange guifg=#96b5b4 guibg=NONE
+" hi cssColor guifg=#96b5b4 guibg=NONE
+" hi Function guifg=#778899 guibg=NONE
+" hi Directory guifg=#b48ead guibg=NONE
+" hi markdownLinkText guifg=#b48ead guibg=NONE
+" hi javaScriptBoolean guifg=#b48ead guibg=NONE
+" hi Include guifg=#b48ead guibg=NONE
+" hi Storage guifg=#b48ead guibg=NONE
+" hi cssClassName guifg=#b48ead guibg=NONE
+" hi cssClassNameDot guifg=#b48ead guibg=NONE
+" hi Statement guifg=#bf616a guibg=NONE
+" hi Operator guifg=#bf616a guibg=NONE
+" hi cssAttr guifg=#bf616a guibg=NONE
+
+" hi Folded guibg=#1c2023 guifg=#96b5b4
+
+" hi Pmenu guifg=#1c2023 guibg=#eaebed
+" hi SignColumn guibg=#1c2023
+" hi Title guifg=#96b5b4
+" hi LineNr guifg=#7b7b7b
+" hi NonText guifg=#919ba0
+" hi Comment guifg=#919ba0 gui=italic
+" hi SpecialComment guifg=#919ba0 gui=italic guibg=#1c2023
+" hi CursorLine guibg=#090909
+" " hi TabLineFill gui=NONE guibg=#090909
+" " hi TabLine guifg=#7b7b7b guibg=#090909 gui=NONE
+" hi StatusLine gui=bold  guifg=#eaebed
+" hi StatusLineNC gui=NONE guifg=#eaebed
+" hi Search guibg=#bf616a guifg=#1c2023
+" hi VertSplit gui=NONE guifg=#090909 guibg=NONE
+" hi Visual gui=NONE guibg=#090909
+
+" hi LSPDiagnosticsDefaultWarning guifg=#ebcb8b
+" hi LSPDiagnosticsDefaultError guifg=#bf616a
+" hi LSPDiagnosticsDefaultInformation guifg=#96b5b4
+" hi LSPDiagnosticsDefaultHint guifg=#96b5b4
+
+
+
+
+" let g:terminal_color_0  = '#1c2023'
+" let g:terminal_color_1  = '#bf616a'
+" let g:terminal_color_2  = '#a3be8c'
+" let g:terminal_color_3  = '#ebcb8b'
+" let g:terminal_color_4  = '#96b5b4'
+" let g:terminal_color_5  = '#b48ead'
+" let g:terminal_color_6  = '#96b5b4'
+" let g:terminal_color_7  = '#eaebed'
+" let g:terminal_color_8  = '#919ba0'
+" let g:terminal_color_9  = '#bf616a'
+" let g:terminal_color_10 = '#a3be8c'
+" let g:terminal_color_11 = '#ebcb8b'
+" let g:terminal_color_12 = '#96b5b4'
+" let g:terminal_color_13 = '#b48ead'
+" let g:terminal_color_14 = '#96b5b4'
+" let g:terminal_color_15 = '#919ba0'
+
+"""
+" Name: space.vim
+"""
+
 set background=dark
+hi clear
+
+if exists('syntax on')
+    syntax reset
+endif
+
+let g:colors_name='space'
 set t_Co=256
-hi Normal guifg=#eaebed ctermbg=NONE gui=NONE
-hi DiffText guifg=#ebcb8b guibg=NONE
-hi ErrorMsg guifg=#bf616a guibg=NONE
-hi WarningMsg guifg=#ebcb8b guibg=NONE
-hi PreProc guifg=#ebcb8b guibg=NONE
-hi Exception guifg=#ebcb8b guibg=NONE
-hi Error guifg=#bf616a guibg=NONE
-hi DiffDelete guifg=#bf616a guibg=NONE
-hi GitGutterDelete guifg=#ebcb8b guibg=NONE
-hi GitGutterChangeDelete guifg=#ebcb8b guibg=NONE
-hi cssIdentifier guifg=#ebcb8b guibg=NONE
-hi cssImportant guifg=#ebcb8b guibg=NONE
-hi Type guifg=#ebcb8b guibg=NONE
-hi Identifier guifg=#ebcb8b guibg=NONE
-hi PMenuSel guifg=#1c1023 guibg=#96b5b4
-hi Constant guifg=#a3be8c guibg=NONE
-hi Repeat guifg=#a3be8c guibg=NONE
-hi DiffAdd guifg=#a3be8c guibg=NONE
-hi GitGutterAdd guifg=#a3be8c guibg=NONE
-hi cssIncludeKeyword guifg=#a3be8c guibg=NONE
-hi Keyword guifg=#a3be8c guibg=NONE
-hi IncSearch guifg=#96b5b4 guibg=NONE
-hi Title guifg=#96b5b4 guibg=NONE
-hi PreCondit guifg=#96b5b4 guibg=NONE
-hi Debug guifg=#96b5b4 guibg=NONE
-hi SpecialChar guifg=#96b5b4 guibg=NONE
-hi Conditional guifg=#96b5b4 guibg=NONE
-hi Todo guifg=#96b5b4 guibg=NONE
-hi Special guifg=#96b5b4 guibg=NONE
-hi Label guifg=#96b5b4 guibg=NONE
-hi Delimiter guifg=#bf616a guibg=NONE
-hi Number guifg=#96b5b4 guibg=NONE
-hi CursorLineNR guifg=#96b5b4 guibg=NONE
-hi Define guifg=#96b5b4 guibg=NONE
-hi MoreMsg guifg=#96b5b4 guibg=NONE
-hi Tag guifg=#96b5b4 guibg=NONE
-hi String guifg=#a3be8c guibg=NONE
-hi MatchParen guifg=#96b5b4 guibg=NONE
-hi Macro guifg=#96b5b4 guibg=NONE
-hi DiffChange guifg=#ebcb8b guibg=NONE
-hi GitGutterChange guifg=#96b5b4 guibg=NONE
-hi cssColor guifg=#96b5b4 guibg=NONE
-hi Function guifg=#778899 guibg=NONE
-hi Directory guifg=#b48ead guibg=NONE
-hi markdownLinkText guifg=#b48ead guibg=NONE
-hi javaScriptBoolean guifg=#b48ead guibg=NONE
-hi Include guifg=#b48ead guibg=NONE
-hi Storage guifg=#b48ead guibg=NONE
-hi cssClassName guifg=#b48ead guibg=NONE
-hi cssClassNameDot guifg=#b48ead guibg=NONE
-hi Statement guifg=#bf616a guibg=NONE
-hi Operator guifg=#bf616a guibg=NONE
-hi cssAttr guifg=#bf616a guibg=NONE
-
-hi Folded guibg=#1c2023 guifg=#96b5b4
-
-hi Pmenu guifg=#eaebed guibg=#1c2023
-hi SignColumn guibg=#1c2023
-hi Title guifg=#96b5b4
-hi LineNr guifg=#7b7b7b
-hi NonText guifg=#919ba0
-hi Comment guifg=#919ba0 gui=italic
-hi SpecialComment guifg=#919ba0 gui=italic guibg=#1c2023
-hi CursorLine guibg=#090909
-" hi TabLineFill gui=NONE guibg=#090909
-" hi TabLine guifg=#7b7b7b guibg=#090909 gui=NONE
-hi StatusLine gui=bold  guifg=#eaebed
-hi StatusLineNC gui=NONE guifg=#eaebed
-hi Search guibg=#bf616a guifg=#1c2023
-hi VertSplit gui=NONE guifg=#090909 guibg=NONE
-hi Visual gui=NONE guibg=#090909
-
-hi LSPDiagnosticsDefaultWarning guifg=#ebcb8b
-hi LSPDiagnosticsDefaultError guifg=#bf616a
-hi LSPDiagnosticsDefaultInformation guifg=#96b5b4
-hi LSPDiagnosticsDefaultHint guifg=#96b5b4
 
 
+" major
+
+hi Normal     guisp=NONE guifg=#eaebed guibg=#1c2023 ctermfg=255 ctermbg=234 gui=NONE   cterm=NONE
+hi Comment    guisp=NONE guifg=#919ba0 guibg=#1c2023 ctermfg=247 ctermbg=234 gui=italic cterm=italic
+hi Constant   guisp=NONE guifg=#b48ead guibg=#1c2023 ctermfg=139 ctermbg=234 gui=bold   cterm=bold
+hi Identifier guisp=NONE guifg=#778899 guibg=#1c2023 ctermfg=102 ctermbg=234 gui=NONE   cterm=NONE
+hi Statement  guisp=NONE guifg=#bf616a guibg=#1c2023 ctermfg=131 ctermbg=234 gui=NONE   cterm=NONE
+hi PreProc    guisp=NONE guifg=#a3be8c guibg=#1c2023 ctermfg=144 ctermbg=234 gui=NONE   cterm=NONE
+hi Type       guisp=NONE guifg=#ebcb8b guibg=#1c2023 ctermfg=222 ctermbg=234 gui=NONE   cterm=NONE
+hi Special    guisp=NONE guifg=#b48ead guibg=#1c2023 ctermfg=139 ctermbg=234 gui=NONE   cterm=NONE
+hi Underlined guisp=NONE guifg=#eaebed guibg=#1c2023 ctermfg=255 ctermbg=234 gui=NONE   cterm=NONE
+hi Ignore     guisp=NONE guifg=#eaebed guibg=#1c2023 ctermfg=255 ctermbg=234 gui=NONE   cterm=NONE
+hi Error      guisp=NONE guifg=#bf616a guibg=#1c2023 ctermfg=131 ctermbg=234 gui=NONE   cterm=NONE
+hi Todo       guisp=NONE guifg=#1c2023 guibg=#bf616a ctermfg=234 ctermbg=131 gui=NONE   cterm=NONE
+
+" minor
+
+hi String         guisp=NONE guifg=#a3be8c guibg=#1c2023 ctermfg=144 ctermbg=234 gui=NONE cterm=NONE
+hi Character      guisp=NONE guifg=#ebcb8b guibg=#1c2023 ctermfg=222 ctermbg=234 gui=NONE cterm=NONE
+hi Number         guisp=NONE guifg=#96b5b4 guibg=#1c2023 ctermfg=109 ctermbg=234 gui=bold cterm=bold
+hi Boolean        guisp=NONE guifg=#a3be8c guibg=#1c2023 ctermfg=144 ctermbg=234 gui=bold cterm=bold
+hi Float          guisp=NONE guifg=#b48ead guibg=#1c2023 ctermfg=139 ctermbg=234 gui=bold cterm=bold
+hi Function       guisp=NONE guifg=#778899 guibg=#1c2023 ctermfg=102 ctermbg=234 gui=NONE cterm=NONE
+hi Conditional    guisp=NONE guifg=#bf616a guibg=#1c2023 ctermfg=131 ctermbg=234 gui=NONE cterm=NONE
+hi Repeat         guisp=NONE guifg=#bf616a guibg=#1c2023 ctermfg=131 ctermbg=234 gui=NONE cterm=NONE
+hi Label          guisp=NONE guifg=#bf616a guibg=#1c2023 ctermfg=131 ctermbg=234 gui=NONE cterm=NONE
+hi Operator       guisp=NONE guifg=#bf616a guibg=#1c1c1c ctermfg=131 ctermbg=234 gui=NONE cterm=NONE
+hi Keyword        guisp=NONE guifg=#bf616a guibg=#1c2023 ctermfg=131 ctermbg=234 gui=NONE cterm=NONE
+hi Exception      guisp=NONE guifg=#bf616a guibg=#1c2023 ctermfg=131 ctermbg=234 gui=NONE cterm=NONE
+hi Include        guisp=NONE guifg=#a3be8c guibg=#1c2023 ctermfg=144 ctermbg=234 gui=NONE cterm=NONE
+hi Define         guisp=NONE guifg=#a3be8c guibg=#1c2023 ctermfg=144 ctermbg=234 gui=NONE cterm=NONE
+hi Macro          guisp=NONE guifg=#a3be8c guibg=#1c2023 ctermfg=144 ctermbg=234 gui=NONE cterm=NONE
+hi PreCondit      guisp=NONE guifg=#a3be8c guibg=#1c2023 ctermfg=144 ctermbg=234 gui=NONE cterm=NONE
+hi StorageClass   guisp=NONE guifg=#ebcb8b guibg=#1c2023 ctermfg=222 ctermbg=234 gui=NONE cterm=NONE
+hi Structure      guisp=NONE guifg=#bf616a guibg=#1c2023 ctermfg=131 ctermbg=234 gui=NONE cterm=NONE
+hi Typedef        guisp=NONE guifg=#ebcb8b guibg=#1c2023 ctermfg=222 ctermbg=234 gui=NONE cterm=NONE
+hi SpecialChar    guisp=NONE guifg=#b48ead guibg=#1c2023 ctermfg=139 ctermbg=234 gui=NONE cterm=NONE
+hi Tag            guisp=NONE guifg=#b48ead guibg=#1c2023 ctermfg=139 ctermbg=234 gui=NONE cterm=NONE
+hi Delimiter      guisp=NONE guifg=#bf616a guibg=#1c2023 ctermfg=131 ctermbg=234 gui=NONE cterm=NONE
+hi SpecialComment guisp=NONE guifg=#b48ead guibg=#1c2023 ctermfg=139 ctermbg=234 gui=NONE cterm=NONE
+hi Debug          guisp=NONE guifg=#b48ead guibg=#1c2023 ctermfg=139 ctermbg=234 gui=NONE cterm=NONE
 
 
-let g:terminal_color_0  = '#1c2023'
-let g:terminal_color_1  = '#bf616a'
-let g:terminal_color_2  = '#a3be8c'
-let g:terminal_color_3  = '#ebcb8b'
-let g:terminal_color_4  = '#96b5b4'
-let g:terminal_color_5  = '#b48ead'
-let g:terminal_color_6  = '#96b5b4'
-let g:terminal_color_7  = '#eaebed'
-let g:terminal_color_8  = '#919ba0'
-let g:terminal_color_9  = '#bf616a'
-let g:terminal_color_10 = '#a3be8c'
-let g:terminal_color_11 = '#ebcb8b'
-let g:terminal_color_12 = '#96b5b4'
-let g:terminal_color_13 = '#b48ead'
-let g:terminal_color_14 = '#96b5b4'
-let g:terminal_color_15 = '#919ba0'
