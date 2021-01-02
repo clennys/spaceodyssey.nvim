@@ -75,10 +75,10 @@ hi Search guibg=#bf616a guifg=#1c2023
 hi VertSplit gui=NONE guifg=#090909 guibg=NONE
 hi Visual gui=NONE guibg=#090909
 
-hi LSPDiagnosticsDefaultWarning guibfg=#ebcb8b
-hi LSPDiagnosticsDefaultError guibfg=#bf616a
-hi LSPDiagnosticsDefaultInformation guibfg=#96b5b4
-hi LSPDiagnosticsDefaultHint guibfg=#96b5b4
+hi LSPDiagnosticsDefaultWarning guifg=#ebcb8b
+hi LSPDiagnosticsDefaultError guifg=#bf616a
+hi LSPDiagnosticsDefaultInformation guifg=#96b5b4
+hi LSPDiagnosticsDefaultHint guifg=#96b5b4
 
 
 
