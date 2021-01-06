@@ -86,13 +86,13 @@ hi Type guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffAdd guifg=#a3be8c ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffChange guifg=#ebcb8b ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffDelete guifg=#bf616a ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffAdd guifg=#a3be8c ctermfg=144 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffChange guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffDelete guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#81a1c1 ctermfg=109 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
 hi diffAdded guifg=#a3be8c ctermfg=144 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
-hi diffChanged guifg=#ebcb8b ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi diffRemoved guifg=#bf616a ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi diffChanged guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi diffRemoved guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffFileId guifg=#5e81ac ctermfg=67 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi diffFile guifg=#778899 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffNewFile guifg=#a3be8c ctermfg=144 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -186,7 +186,7 @@ hi markdownItalic guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=italic c
 hi markdownLinkDelimiter guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownLinkText guifg=#5e81ac ctermfg=67 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownListMarker guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownOrdenord11ListMarker guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdowspaceodysseyespaceodyssey11ListMarker guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownRule guifg=#919ba0 ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrl guifg=#96b4b5 ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi LSPDiagnosticsDefaultWarning guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
