@@ -36,7 +36,7 @@ hi CursorLineNr guifg=#96b4b5 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi Folded guifg=#4e5961 ctermfg=240 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
 hi FoldColumn guifg=#4e5961 ctermfg=240 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
 hi SignColumn guifg=#1c2023 ctermfg=234 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
-hi Directory guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Directory guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#1c2023 ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#d8dee9 ctermfg=254 guibg=#bf616a ctermbg=131 gui=NONE cterm=NONE
 hi ModeMsg guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -193,3 +193,8 @@ hi LSPDiagnosticsDefaultWarning guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NON
 hi LspDiagnosticsDefaultError guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsDeaultInformation guifg=#96b4b5 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsDefaultHint guifg=#96b4b5 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeFolderName guifg=#81a1c1 ctermfg=109 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeFolderIcon guifg=#697884 ctermfg=66 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeExecFile guifg=#a3be8c ctermfg=144 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeIndentMarker guifg=#697884 ctermfg=66 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeRootFolder guifg=#b48ead ctermfg=139 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE

@@ -67,7 +67,7 @@ highlights:
   SignColumn: "spaceodyssey1 spaceodyssey0"
 
   # Navigation
-  Directory: "spaceodyssey8"
+  Directory: "spaceodyssey15"
 
   # Prompt/Status
   EndOfBuffer: "spaceodyssey1"
@@ -248,9 +248,16 @@ highlights:
   markdownRule: "spaceodyssey16"
   markdownUrl: "spaceodyssey7 - u"
 
-    # Nvim LSP
+  # Nvim LSP
   LSPDiagnosticsDefaultWarning: "spaceodyssey13"
   LspDiagnosticsDefaultError: "spaceodyssey11"
   LspDiagnosticsDeaultInformation: "spaceodyssey7"
   LspDiagnosticsDefaultHint: "spaceodyssey7"
+
+  # nvim-tree.nvim
+  NvimTreeFolderName: "spaceodyssey9 spaceodyssey0"
+  NvimTreeFolderIcon: "spaceodyssey19 spaceodyssey0"
+  NvimTreeExecFile: "spaceodyssey14 spaceodyssey0"
+  NvimTreeIndentMarker: "spaceodyssey19 spaceodyssey0"
+  NvimTreeRootFolder: "spaceodyssey15 spaceodyssey0"
 
