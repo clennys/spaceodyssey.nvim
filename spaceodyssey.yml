@@ -9,9 +9,8 @@ palette:
 
   spaceodyssey0: "#1c2023"
   spaceodyssey1: "#1c2023"
-  spaceodyssey2: "#394248"
+  spaceodyssey2: "#2D3439"
   spaceodyssey3: "#4e5961"
-  spaceodyssey3_gui_bright: "#697884"
   spaceodyssey4: "#D8DEE9"
   spaceodyssey5: "#E5E9F0"
   spaceodyssey6: "#ECEFF4"
@@ -27,6 +26,8 @@ palette:
   spaceodyssey16: "#919ba0"
   spaceodyssey17: "#15191b"
   spaceodyssey18: "#778899"
+  spaceodyssey19: "#697884"
+  spaceodyssey20: "#242a2e"
 
 highlights:
 
@@ -39,10 +40,10 @@ highlights:
   MatchParen: "spaceodyssey8 spaceodyssey3"
   NonText: "spaceodyssey2"
   Normal: "spaceodyssey4 spaceodyssey0"
-  Pmenu: "spaceodyssey0 spaceodyssey4"
-  PmenuSbar: "spaceodyssey0 spaceodyssey4"
-  PmenuSel: "spaceodyssey0 spaceodyssey7"
-  PmenuThumb: "spaceodyssey8 spaceodyssey3"
+  Pmenu: "spaceodyssey19 spaceodyssey20"
+  PmenuSbar: "spaceodyssey6 spaceodyssey2"
+  PmenuSel: "spaceodyssey6 spaceodyssey2"
+  PmenuThumb: "spaceodyssey6 spaceodyssey19"
   SpecialKey: "spaceodyssey3"
   SpellBad: "spaceodyssey11 spaceodyssey0 u"
   SpellCap: "spaceodyssey13 spaceodyssey8 u"
@@ -97,7 +98,7 @@ highlights:
   # Language Base Groups
   Boolean: "spaceodyssey9"
   Character: "spaceodyssey14"
-  Comment: "spaceodyssey3_gui_bright - i"
+  Comment: "spaceodyssey19 - i"
   Conditional: "spaceodyssey9"
   Constant: "spaceodyssey8"
   Define: "spaceodyssey9"
@@ -164,7 +165,7 @@ highlights:
   TSAttribute: "spaceodyssey7"
   TSNamespace: "spaceodyssey15"
   # Functions
-  TSFuncBuiltin: "spaceodyssey8"
+  TSFuncBuiltin: "spaceodyssey11"
   TSFunction: "spaceodyssey13"
   TSFuncMacro: "spaceodyssey8"
   TSParameter: "spaceodyssey5"
@@ -182,8 +183,8 @@ highlights:
   TSKeywordOperator: "spaceodyssey11"
   TSOperator: "spaceodyssey11"
   TSException: "spaceodyssey9"
-  TSType: "spaceodyssey11"
-  TSTypeBuiltin: "spaceodyssey9"
+  TSType: "spaceodyssey12"
+  TSTypeBuiltin: "spaceodyssey11"
   TSStructure: "spaceodyssey13"
   TSInclude: "spaceodyssey9"
   # Variable
