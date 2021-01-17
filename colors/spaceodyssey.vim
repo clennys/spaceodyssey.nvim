@@ -194,7 +194,7 @@ hi LspDiagnosticsDefaultError guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE 
 hi LspDiagnosticsDeaultInformation guifg=#96b4b5 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsDefaultHint guifg=#96b4b5 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeFolderName guifg=#88c0d0 ctermfg=110 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
-hi NvimTreeFolderIcon guifg=#697884 ctermfg=66 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeFolderIcon guifg=#81a1c1 ctermfg=109 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
 hi NvimTreeExecFile guifg=#a3be8c ctermfg=144 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
-hi NvimTreeIndentMarker guifg=#697884 ctermfg=66 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
-hi NvimTreeRootFolder guifg=#b48ead ctermfg=139 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeIndentMarker guifg=#a3be8c ctermfg=144 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeRootFolder guifg=#a3be8c ctermfg=144 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
