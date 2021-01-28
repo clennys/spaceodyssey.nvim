@@ -197,4 +197,9 @@ hi NvimTreeFolderName guifg=#88c0d0 ctermfg=110 guibg=#1c2023 ctermbg=234 gui=NO
 hi NvimTreeFolderIcon guifg=#81a1c1 ctermfg=109 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
 hi NvimTreeExecFile guifg=#a3be8c ctermfg=144 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
 hi NvimTreeIndentMarker guifg=#a3be8c ctermfg=144 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeGitDirty guifg=#bf616a ctermfg=131 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeGitStaged guifg=#bf616a ctermfg=131 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeGitMerge guifg=#bf616a ctermfg=131 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeGitRenamed guifg=#bf616a ctermfg=131 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeGitNew guifg=#bf616a ctermfg=131 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
 hi NvimTreeRootFolder guifg=#a3be8c ctermfg=144 guibg=#1c2023 ctermbg=234 gui=NONE cterm=NONE
