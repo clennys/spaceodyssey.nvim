@@ -51,10 +51,10 @@ function spaceodyssey.config()
         PmenuSel = {fg=spaceodyssey.c6, bg=spaceodyssey.c2};
         PmenuThumb = {fg=spaceodyssey.c6, bg=spaceodyssey.c19};
         SpecialKey = {fg=spaceodyssey.c3};
-        SpellBad = {fg=spaceodyssey.c11, bg=spaceodyssey.c1 u};
-        SpellCap = {fg=spaceodyssey.c13, bg=spaceodyssey.c8 u};
-        SpellLocal = {fg=spaceodyssey.c5, bg=spaceodyssey.c1 u};
-        SpellRare = {fg=spaceodyssey.c6, bg=spaceodyssey.c1 u};
+        SpellBad = {fg=spaceodyssey.c11, bg=spaceodyssey.c1, style='underline'};
+        SpellCap = {fg=spaceodyssey.c13, bg=spaceodyssey.c8, style='underline'};
+        SpellLocal = {fg=spaceodyssey.c5, bg=spaceodyssey.c1, style='underline'};
+        SpellRare = {fg=spaceodyssey.c6, bg=spaceodyssey.c1, style='underline'};
         Visual = {bg=spaceodyssey.c2};
         VisualNOS = {bg=spaceodyssey.c2};
         QuickFixLine = {fg=spaceodyssey.bg, bg=spaceodyssey.c13};
@@ -214,7 +214,7 @@ function spaceodyssey.config()
         htmlArg = {fg=spaceodyssey.c8};
         htmlBold = {fg=spaceodyssey.c8, style='italic'};
         htmlEndTag = {fg=spaceodyssey.c6};
-        htmlH1 = {fg=paceodyssey.c10};
+        htmlH1 = {fg=spaceodyssey.c10};
         htmlH2 = {fg=spaceodyssey.c10};
         htmlH3 = {fg=spaceodyssey.c10};
         htmlH4 = {fg=spaceodyssey.c10};
@@ -292,7 +292,7 @@ function spaceodyssey.terminal()
   vim.g.terminal_color_12 = spaceodyssey.c9
   vim.g.terminal_color_13 = spaceodyssey.c15
   vim.g.terminal_color_14 = spaceodyssey.c7
-  vim.g.terminal_color_15 = zephyr.fg
+  vim.g.terminal_color_15 = spaceodyssey.fg
 end
 
 function spaceodyssey.colorscheme()
