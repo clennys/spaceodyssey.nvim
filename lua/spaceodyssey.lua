@@ -34,7 +34,6 @@ function spaceodyssey.highlighting(group, color)
 end
 
 
-
 function spaceodyssey.config()
     local syntax = {
         -- Editor
@@ -104,7 +103,6 @@ function spaceodyssey.config()
         -- Language Base Groups
         Boolean = {fg=spaceodyssey.c9};
         Character = {fg=spaceodyssey.c14};
-        Comment = {fg=spaceodyssey.c19, style='italic'};
         Conditional = {fg=spaceodyssey.c9};
         Constant = {fg=spaceodyssey.c8};
         Define = {fg=spaceodyssey.c9};
@@ -122,6 +120,7 @@ function spaceodyssey.config()
         Repeat = {fg=spaceodyssey.c9};
         Special = {fg=spaceodyssey.c10};
         SpecialChar = {fg=spaceodyssey.c13};
+        Comment = {fg=spaceodyssey.c19, style='italic'};
         SpecialComment = {fg=spaceodyssey.c8, style='italic'};
         Statement = {fg=spaceodyssey.c15};
         StorageClass = {fg=spaceodyssey.c9};
@@ -270,6 +269,17 @@ function spaceodyssey.config()
         NvimTreeGitRenamed = {fg=spaceodyssey.c11, bg=spaceodyssey.c1};
         NvimTreeGitNew = {fg=spaceodyssey.c11, bg=spaceodyssey.c1};
         NvimTreeRootFolder = {fg=spaceodyssey.c14, bg=spaceodyssey.c1};
+
+        --Vim    
+        vimCommentTitle = {fg=spaceodyssey.c19,style='bold'};
+        vimLet = {fg=spaceodyssey.c10};
+        vimVar = {fg=spaceodyssey.c6};
+        vimFunction = {fg=spaceodyssey.c11,style='bold'};
+        vimIsCommand = {fg=spaceodyssey.fg};
+        vimCommand = {fg=spaceodyssey.c8};
+        vimNotFunc = {fg=spaceodyssey.c15,style='bold'};
+        vimUserFunc = {fg=spaceodyssey.c13,style='bold'};
+        vimFuncName= {fg=spaceodyssey.c13,style='bold'};
     }
 
 return syntax
