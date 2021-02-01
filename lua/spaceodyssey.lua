@@ -38,7 +38,7 @@ end
 function spaceodyssey.config()
     local syntax = {
         -- Editor
-        ColorColumn = {bg=spaceodyssey.c1};
+        ColorColumn = {bg=spaceodyssey.c2};
         Cursor = {fg=spaceodyssey.c1, bg=spaceodyssey.c4};
         CursorLine = {bg=spaceodyssey.c1};
         Error = {fg=spaceodyssey.c4, bg=spaceodyssey.c11};
