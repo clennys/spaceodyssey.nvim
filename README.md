@@ -3,7 +3,8 @@
 The Spaceodyssey colorscheme is inspired by the beautiful ![Nord](https://github.com/arcticicestudio/nord) colorscheme.
 This is a very young project and will be optimized over time.
 
-![Screenshot](/screenshots/nvim.png?raw=true "Example Screenshot in Lua")
+![Screenshot01](/screenshots/nvim01.png?raw=true "Example Screenshot01")
+![Screenshot02](/screenshots/nvim02.png?raw=true "Example Screenshot02")
 
 ### Requirements
 Requires ![treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and ![Neovim](https://github.com/neovim/neovim) > 0.5.
