@@ -10,5 +10,5 @@ This is a very young project and will be optimized over time.
 Requires ![treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and ![Neovim](https://github.com/neovim/neovim) > 0.5.
 
 ### Credits
-- ![nord-version](https://github.com/ChristianChiarulli/nvcode-color-schemes.vim/blob/master/nord.yml) by ![Christian Chiarulli](https://github.com/ChristianChiarulli).
+- ![Nvcode](https://github.com/ChristianChiarulli/nvcode-color-schemes.vim/blob/master/nord.yml) 
 - ![colorscheme_generator](https://gist.github.com/shadmansaleh/101d27a3593a9765a81bc548370ba018)
