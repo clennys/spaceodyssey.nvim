@@ -1,4 +1,4 @@
-# Spaceodyssey.nvim
+# Spaceodyssey.nvim (WIP)
 
 ### Requirements
 Requires ![treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and ![Neovim](https://github.com/neovim/neovim) > 0.5.
