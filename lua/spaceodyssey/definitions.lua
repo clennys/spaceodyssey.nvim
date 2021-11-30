@@ -93,7 +93,7 @@ local highlights = {
   CmpItemKindMethod = { fg = palette.color7, bg = palette.color1, },
   CmpItemKindKeyword = { fg = palette.color8, bg = palette.color1, },
   CmpItemKindProperty = { fg = palette.color8, bg = palette.color1, },
-  CmpItemKindUnit = { fg = palette.color2, bg = palette.color1, },
+  CmpItemKindUnit = { fg = palette.color4, bg = palette.color1, },
   CmpItemKindClass = { fg = palette.color6, bg = palette.color1, },
   CmpItemKindModule = { fg = palette.color4, bg = palette.color1, },
   CmpItemKindConstant = { fg = palette.color3, bg = palette.color1, },
@@ -101,6 +101,7 @@ local highlights = {
   CmpItemKindSnippet = { fg = palette.color12, bg = palette.color1, },
   CmpItemKindFolder = { fg = palette.color15, bg = palette.color1, },
   CmpItemKindFile = { fg = palette.color15, bg = palette.color1, },
+  CmpItemKindValue = { fg = palette.color5, bg = palette.color1, },
 
   Question   = { fg = palette.color8, },
   QuickFixLine = { fg = palette.color1, bg = palette.color9, },
