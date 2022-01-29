@@ -1,4 +1,6 @@
-# Spaceodyssey.nvim (WIP)
+# Spaceodyssey.nvim (Not Maintained)
+
+# Project moved to ![orca.nvim](https://github.com/devnnys/orca.nvim)
 
 ### Requirements
 Requires ![treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and ![Neovim](https://github.com/neovim/neovim) > 0.5.
